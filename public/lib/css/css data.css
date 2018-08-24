@@ -1,0 +1,394 @@
+@media only screen and (max-width: 2560px) {
+    /* For tv: */
+                            /* main Header */
+    #header {
+        width: 100vw;
+    }
+    #mainHeading {
+        float: left !important;
+        font-size: 5vw !important;
+        margin: 1vw 1vw 1vw 32vw !important;
+    }
+    #backBtn {
+        display: block !important;
+        float: left !important;
+        visibility: hidden !important;
+        width: 4vw;
+    }
+    /* #inputPlace { */
+        /* margin: 2px !important; */
+        /* margin-top: 5vw !important; */
+    /* } */
+    /* input[type=search] { */
+        /* margin-left: 10vw; */
+        /* width: 80vw !important; */
+        /* padding: 0.3%; */
+        /* font-size: 1.5vw; */
+        /* height: 2vw !important; */
+    /* } */
+    /* #btnSearch { */
+        /* color: red; */
+        /* height: 3vw; */
+        /* font-size: 1.5vw; */
+        /* border: none; */
+        /* background: none; */
+        /* margin-left: -3% !important; */
+    /* } */
+
+                            /* Response From Server */
+    .content {
+        overflow: hidden !important;
+        min-width: 250px;
+    }
+    li {
+        /* height: 25vw !important; */
+        padding: 0;
+    }
+    li img {
+        width: 20vw;
+        margin-bottom: 1%;
+    }
+    li h4 {
+        font-family: 'Sunflower', sans-serif;
+        font-size: 2.7vw;
+        font-weight: 700;
+        text-justify: auto;
+        margin: 0% 0 0% 1.5%;
+        /* background-color: red; */
+    }
+    li p {
+        font-family: 'Sunflower', sans-serif;
+        font-size: 1.3vw;
+        text-justify: auto;
+        margin: 0.5% 0px 0% 1.5%;
+        width: 70vw;
+
+        /* overflow: hidden; */
+        /* background-color: red; */
+    }
+
+                            /* Player CSS */
+    
+}
+@media only screen and (max-width: 1450px) {
+    /* For laptops: */
+    #header {
+        width: 100vw;
+    }
+    #mainHeading {
+        float: left !important;
+        font-size: 6vw !important;
+        margin: 1vw 1vw 1vw 30vw !important;
+    }
+    #backBtn {
+        display: block !important;
+        float: left !important;
+        visibility: hidden !important;
+        width: 4vw;
+    }
+    #inputPlace {
+        margin: 2px !important;
+        margin-top: 5vw !important;
+    }
+    input[type=search] {
+        margin-left: 10vw;
+        width: 80vw !important;
+    }
+    #btnSearch {
+        color: red;
+    }
+    .content {
+        overflow: hidden !important;
+        min-width: 250px;
+    }
+    li {
+        /* height: 25vw !important; */
+        padding: 0;
+    }
+    li img {
+        width: 20vw;
+        margin-bottom: 1%;
+    }
+    li h4 {
+        font-family: 'Sunflower', sans-serif;
+        font-size: 3.0vw;
+        font-weight: 500;
+        text-justify: auto;
+        margin: 0% 0 0% 1.5%;
+        /* background-color: red; */
+    }
+    li p {
+        font-family: 'Sunflower', sans-serif;
+        font-size: 1.5vw;
+        text-justify: auto;
+        margin: 0.5% 0px 0% 1.5%;
+        width: 70vw;
+
+        /* overflow: hidden; */
+        /* background-color: red; */
+    }
+}
+
+
+
+
+@media only screen and (max-width: 550px) {
+    /* For mobile phones: */
+    #header {
+        width: 100vw;
+        padding-top: 10px;     
+        padding-bottom: 10px;     
+        padding-left: 0px !important;     
+        padding-right: 0px !important;     
+        overflow: hidden;     
+        background-color: #d10000;
+    }
+    #mainHeading {
+        float: left !important;
+        font-size: 11vw ;
+        margin: 1vw 1vw 3vw 13vw !important;
+    }
+    #backBtn {
+        display: block !important;
+        float: left !important;
+        width: 10vw;
+    }
+    #inputPlace {
+        margin: 2px !important;
+        margin-top: 5vw !important;
+    }
+    input[type=search] {
+        margin-left: 10vw;
+        width: 80vw !important;
+    }
+    #btnSearch {
+        color: red;
+    }
+    .content {
+        overflow: hidden !important;
+        min-width: 250px;
+    }
+    li {
+        /* height: 25vw !important; */
+        padding: 0;
+    }
+    li img {
+        width: 33vw;
+        margin-bottom: 1%;
+    }
+    li h4 {
+        font-family: 'Sunflower', sans-serif;
+        font-size: 3.5vw;
+        font-weight: 800;
+        text-justify: auto;
+        margin: 0% 0 0.5% 2.5%;
+        /* background-color: red; */
+    }
+    li p {
+        font-family: 'Sunflower', sans-serif;
+        font-size: 2.6vw;
+        text-justify: auto;
+        margin: 0.5% 0px 0% 2.5%;
+        /* overflow: hidden; */
+        /* background-color: red; */
+    }
+}
+@media only screen and (max-width: 790px) {
+    /* For Tablet phones: */
+    #header {
+        width: 100vw;
+        padding-top: 10px;     
+        padding-bottom: 10px;     
+        padding-left: 0px !important;     
+        padding-right: 0px !important;     
+        overflow: hidden;     
+        background-color: #d10000;
+    }
+    #mainHeading {
+        float: left !important;
+        font-size: 6vw;
+        margin: 1vw 1vw 1vw 16vw !important;
+    }
+    #backBtn {
+        display: block !important;
+        float: left !important;
+        width: 10vw;
+    }
+    #inputPlace {
+        margin: 2px !important;
+        margin-top: 5vw !important;
+    }
+    input[type=search] {
+        margin-left: 10vw;
+        width: 80vw !important;
+    }
+    #btnSearch {
+        color: red;
+    }
+    .content {
+        overflow: hidden !important;
+        min-width: 250px;
+    }
+    li {
+        /* height: 25vw !important; */
+        padding: 0;
+    }
+    li img {
+        width: 33vw;
+        margin-bottom: 1%;
+    }
+    li h4 {
+        font-family: 'Sunflower', sans-serif;
+        font-size: 3.0vw;
+        font-weight: 800;
+        text-justify: auto;
+        margin: 0% 0 0.5% 2.5%;
+        /* background-color: red; */
+    }
+    li p {
+        font-family: 'Sunflower', sans-serif;
+        font-size: 2.1vw;
+        text-justify: auto;
+        margin: 0.5% 0px 0% 2.5%;
+        /* overflow: hidden; */
+        /* background-color: red; */
+    }
+}
+
+/* HEADER */
+#header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    overflow: hidden;
+    background-color: #d10000;
+}
+
+#mainHeading {
+    font-family: 'Comfortaa', cursive;
+    font-size: 5vw;
+    margin-top: 11px;
+    margin-bottom: 2px;
+    outline: none;
+    color: white;
+    /* background-color: #00BCD4; */
+}
+
+#backBtn {
+    display: none;
+    float: left;
+    margin-left: 0px;
+}
+
+
+
+
+/* Input PLACE */
+#inputPlace {
+    margin-top: 1%;
+    margin-left: 20%;
+    margin-bottom: 1%;
+    /* background-color: aquamarine; */
+}
+
+input[type=search] {
+    float: left;
+    width: 60vw;
+    /* background: red; */
+}
+
+#btnSearch {
+    float: left;
+    font-size: 2vw;
+    margin-left: -3vw;
+    padding: px ;
+    
+    border: none !important;
+    /* background: red; */
+}
+
+
+
+
+
+
+
+
+/* CONTENT FETCHED */
+li:first-child {
+    margin: 1% 1px 0% 1px;
+    ;
+}
+
+li:hover {
+    cursor: pointer;
+    background-color: rgb(196, 196, 196);
+}
+
+li {
+    list-style: none;
+    height: auto;
+    margin: 0% 1px 0% 1px;
+    padding: 10px;
+    width: 100vw;
+    overflow: hidden;
+    background: rgb(240, 240, 240);
+}
+
+img {
+    float: left;
+    width: auto;
+    margin: auto;
+    /* background: blue; */
+}
+
+h4 {
+    font-size: 1.4em;
+    float: left;
+    margin: 1.5% 1% 1% 1%;
+    width: 60%;
+    /* background: blanchedalmond; */
+}
+
+p {
+    float: left;
+    width: 60%;
+    margin: 0% 1% 0% 1%;
+    /* background-color: aquamarine;     */
+}
+
+
+
+
+
+
+/* Iframe*/
+
+@import url('https://fonts.googleapis.com/css?family=Dosis|Noto+Serif');
+iframe {
+    width: 60vw;
+    height: 30vw;
+    margin: 25px 5px 2px 25px;
+}
+
+#data {
+    width: 60vw;
+    height: auto;
+    margin: 5px 5px 2px 25px;
+    overflow: hidden;
+    /* background: yellow; */
+}
+
+#data h3 {
+    font-family: 'Noto Serif', serif;
+    font-size: 1.5em;
+    /* background: red; */
+}
+
+#data h6 {
+    width: 80%;
+    font-size: 14px;
+    line-height: 1.5em;
+    /* background: red; */
+}

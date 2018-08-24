@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Youtube Search</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/icons/icon-72x72.png" type="image/x-icon">
+
+    <!-- Glyphicon -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/solid.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/fontawesome.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="lib/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="lib/css/bootstrap.css">
+    <link rel="stylesheet" href="lib/css/style.css">
+
+    <!-- ManiFest -->
+    <link rel="manifest" href="manifest.json">
+
+
+
+</head>
+
+<body>
+    <!-- HEADER -->
+    <!-- Posting DATA TO API -->
+    <div id="header" align=center class="col-12">
+
+        <head>
+            <a href="index.html">
+                <button id="backBtn" class="btn">
+                    <i class="fas fa-angle-left"></i>
+                </button>
+            </a>
+            <a href="index.html">
+                <h3 id="mainHeading">YOUTUBE</h3>
+            </a>
+        </head>
+
+        <div id="inputPlace">
+            <input class="form-control" placeholder="Search Videos.." type="search" name="search" id="search">
+            <button class="btn" id="btnSearch" onclick="startVibrate()">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- iframe -->
+    <div id="pageData">
+        <iframe id="VideoPlace" frameborder="0" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen"
+            oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe>
+
+        <div id="data">
+            <h3 id="TitlePlace"></h3>
+            <h6 id="DescPlace">
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+    <script src="lib/js/player.js" type="text/javascript"></script>
+    <script src="lib/js/search.js"></script>
+    <script src="https://apis.google.com/js/client.js?onload=onClientLoad" type="text/javascript"></script>
+</body>
+
+</html>

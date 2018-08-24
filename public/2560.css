@@ -1,0 +1,172 @@
+@media only screen and (max-width: 2560px) {
+    #header{
+        padding-top: 0px !important;
+        padding: 3px;
+        /* font-size: 10vw !important ; */
+    }
+    a > h3{
+        font-size: 6vw !important ;
+        /* background: red; */
+    }
+    
+    #inputPlace{
+        margin: 2px !important;
+    }
+    input[type=search]{
+        margin-left: 10%; 
+        /* padding: 1% !important; */
+        font-size: 1vw;
+        width: 80% !important;
+
+        
+        outline: none;
+    }
+    button{
+        background-color:red !important;
+        margin-left: -3% !important; 
+        width: 3% !important;
+        font-size: 1vw !important;
+        color: white !important;
+    }
+
+    /* Respone DATA */
+    .content{
+        overflow: hidden !important;
+    }
+    li{
+        height: 10vw !important;
+        margin-bottom: 0.5% !important;
+        
+    }
+
+    li img{
+        margin-top: 0.5% !important;
+        width: 15vw;
+    }
+    li h4{
+        font-size: 2.8vw;
+        text-justify: auto;
+        margin: 0.3% 0px 0.2% 1px !important;
+        
+        /* background-color: red; */
+    }
+    li p{
+        font-size: 1.5vw;
+        text-justify: auto;
+        margin: 0% 0px auto 1px;
+
+        /* overflow: hidden; */
+        /* background-color: red; */
+    }
+
+
+     /* Player DATA */
+    iframe{
+        width: 100vw !important;
+        height: 55vw !important;
+        margin: 15px 0px 2px 0px !important;    
+    }
+    
+    #data{
+        width: 92vw !important;
+        height: auto;
+        margin: 3px 4px 2px 15px !important;    
+        overflow: hidden;
+    
+        /* background: yellow; */
+    }
+    #data h3{
+        font-family: 'Noto Serif', serif;
+        font-size: 2.8vw !important;
+    
+        /* background: red; */
+    }
+    #data h6{
+        font-size: 1.2vw !important;
+        line-height: 1.5em;
+        
+        /* width: 80%; */
+        /* background: red; */
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    /* For big laptops: */
+     #header{
+        padding-top: 0px !important;
+        font-size: 10vw !important ;
+        padding: 3px;
+    }
+    a > h3{
+        font-size: 5vw !important ;
+    }
+    
+    #inputPlace{
+        margin: 2px !important;
+    }
+    input[type=search]{
+        margin-left: 10%; 
+        width: 80% !important;
+        outline: none;
+    }
+    button{
+        background-color:red !important;
+        margin-left: 53%; 
+        width: 45%;
+        color: white !important;
+    }
+
+    /* Respone DATA */
+    .content{
+        overflow: hidden !important;
+    }
+
+    li img{
+        width: 20vw;
+    }
+    li h4{
+        font-size: 1.8vw;
+        text-justify: auto;
+        margin: 1% 0px 1% 1px;
+        
+        /* background-color: red; */
+    }
+    li p{
+        font-size: 1.2vw;
+        text-justify: auto;
+        margin: 0% 0px auto 1px;
+
+        /* overflow: hidden; */
+        /* background-color: red; */
+    }
+
+
+     /* Player DATA */
+    iframe{
+        width: 100vw !important;
+        height: 55vw !important;
+        margin: 15px 0px 2px 0px !important;    
+    }
+    
+    #data{
+        width: 92vw !important;
+        height: auto;
+        margin: 3px 4px 2px 15px !important;    
+        overflow: hidden;
+    
+        /* background: yellow; */
+    }
+    #data h3{
+        font-family: 'Noto Serif', serif;
+        font-size: 2.8vw !important;
+    
+        /* background: red; */
+    }
+    #data h6{
+        font-size: 1.2vw !important;
+        line-height: 1.5em;
+        
+        /* width: 80%; */
+        /* background: red; */
+    }
+}
